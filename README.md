@@ -29,13 +29,17 @@ This project aims to predict the total ride duration of taxi trips in New York C
 1. Feature splitting into categorical and numerical
 2. One-hot encoding for categorical features
 3. Standard scaling for numerical features
-4. Polynomial Features (degree=6)
+4. Polynomial Features (degree=4)
 5. Log transformation applied
 
 ### Results
-- RMSE: 0.4427 (Validation)
-- R²: 0.6938 (Validation)
-
+1. Ridge
+      - RMSE: 0.4478 (Validation)
+      - R²: 0.6867 (Validation)
+2. XGBoost
+      - RMSE: 0.4012 (Validation)
+      - R²: 0.7485 (Validation)
+        
 ### Lessons and Future Work
 - Feature selection improves model performance
 - Outlier removal for intra-trip duration doesn't improve performance
