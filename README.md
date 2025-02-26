@@ -1,4 +1,3 @@
-# [NYC-Taxi-Trip-Duration](https://www.kaggle.com/code/sherif31/new-york-city-taxi-trip-duration) 
 ## Project Overview
 This project aims to predict the total ride duration of taxi trips in New York City as part of the NYC Taxi Duration Prediction competition on Kaggle. The model uses data provided by the NYC Taxi and Limousine Commission, including information such as pickup time, geo-coordinates, number of passengers, and other variables.
 ## Data exploration
